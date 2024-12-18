@@ -1,0 +1,166 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+header{
+    height: 80px;
+    display: flex;
+    background-color: #901313;
+    font-family: inter;
+    color: white;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 640px;
+    margin-top: 20px;
+}
+
+a{
+    font-family: inter;
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(imgM/oi.png);
+    height: 552px;
+    width: auto;
+}
+
+
+.title1{
+    font-family: inter;
+    color: #151654;
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 210px;
+}
+
+.linha{
+    height: 1px;
+    width: 150px;
+    background-color: #151654;
+    margin-left: 30px;
+}
+
+span{
+font-weight: 900;
+}
+
+.revista{
+    background-image: url(imgM/img1.png);
+    height: 380px;
+    width:255px;
+}
+
+.revista1{
+    background-image: url(imgM/img3.png);
+    height: 380px;
+    width:255px;
+}
+
+.revista2{
+    background-image: url(imgM/img2.png);
+    height: 380px;
+    width:255px;
+}
+
+.preco{
+    color: #151654;
+    font-family: inter;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.venda{
+display: flex;
+flex-direction: column;
+margin-left: 45px;
+margin-right: 45px;
+
+}
+
+.maisVen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.linhas{
+    height: 1px;
+    width:900px;
+    background-color: #151654;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+
+footer{
+    height: 60px;
+    background-color: #901313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: inter;
+    margin-top: 100px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.revista3{
+    background-image: url(imgM/img4.png);
+    height: 380px;
+    width:255px;
+}
+
+.revista4{
+    background-image: url(imgM/img5.png);
+    height: 380px;
+    width:255px;
+}
+
+.revista5{
+    background-image: url(imgM/img6.png);
+    height: 380px;
+    width:255px;
+}
+
+.revista6{
+    background-image: url(imgM/img7.png);
+    height: 380px;
+    width:255px;
+}
+
+.revista7{
+    background-image: url(imgM/img8.png);
+    height: 380px;
+    width:255px;
+}
+
+.revista8{
+    background-image: url(imgM/img9.png);
+    height: 380px;
+    width:255px;
+}
+
+img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
